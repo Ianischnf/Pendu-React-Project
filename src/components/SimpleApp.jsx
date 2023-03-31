@@ -1,12 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 import Keyboard from './keyboards';
 import Form from './Form';
+import Name from './Name';
+
 
 const PenduApp = () =>  {
     return(
         <Routes>
-            {/* <Route index element={<Keyboard />} /> */}
-            <Route index element={<Form />} />
+            <Route path='/' element={<Name/>}/>
+            <Route path='Form' element={<Form/>}/>
         </Routes>
     )
 }

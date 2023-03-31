@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #fdfdfd ;
+  background-image: url('./Images/font.jpg');
 }
 
 .logo {
@@ -83,3 +83,28 @@ button{
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
+.formulaire_pseudo_contain{
+  background-color: #D2E7FC;
+  height: 50vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contain_two{
+  /* background-color:red; */
+  height:50vh;
+  width:80vh;
+}
+
+button:hover{
+  background-color: #D2D6D9;
+}
+
+input[type=text]{
+  border-radius: 3rem;
+  border: 1px;
+  height: 20px;
+}
+

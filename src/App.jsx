@@ -2,10 +2,12 @@
 import './App.css'
 import Form from './components/Form';
 import { useAlphabetContext } from './Provider/ProviderDico';
+import { useNameContext } from './Provider/ProviderName';
 
 function App() {
 
   const {letters} = useAlphabetContext()
+  const { fname } = useNameContext()
 
   
 

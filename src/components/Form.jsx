@@ -1,11 +1,12 @@
 import Hearts from './Hearts'
 import Keyboard from './keyboards'
+import Name from './Name'
 
 function Form(){
     return(
         <div class="Formulaire">
             <Hearts/>
-            <h1>Jeu du pendu</h1>
+            <h1>Hello {Name}</h1>
             
             {/* <form action="" method="post">
                 <label for="Lettre">Entrez une lettre</label>
